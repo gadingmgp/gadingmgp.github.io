@@ -1,0 +1,226 @@
+body {
+	background-color: ;
+	margin: 0px;
+	font-family: 'Lato', sans-serif;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+}
+
+b,
+strong {
+  font-weight: bold;
+}
+
+.section-title {
+	padding: 30px 0;
+}
+.section-title h2 {
+	font-weight: 400;
+	margin-bottom: 26px;
+}
+
+h2 {
+	font-size: 30px;
+	margin: 0;
+}
+
+/*nav*/
+#nav {
+	background: #ffc800;
+	height: 48px;
+}
+
+.navbar-brand {
+	float: left;
+	margin: auto 15px;
+	height: 50px;
+	padding: 15px 30px;
+	font-size: 18px;
+	line-height: 20px;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.navbar-brand:hover,
+.navbar-brand:focus {
+  text-decoration: none;
+}
+
+ul.nav {
+	float: right;
+	list-style: none;
+	margin-right: 120px;
+}
+
+ul.nav li {
+	float: left;
+}
+
+ul.nav li a{
+	color: white;
+	padding: 0px 30px;
+	margin: 0px;
+	display: block;
+	text-decoration: none;
+}
+
+ul.nav li a:hover{
+	color: #b6aeae;
+}
+
+/*Bagian Intro*/
+#intro{
+	height: 380px;
+	background-image: url(../img/chelsea.jpg);
+	background-position: center;
+	/*margin: 10px 0px;*/
+	padding: 150px 120px 50px 120px;
+	background-size: cover;
+}
+
+#intro h1 {
+	color: #ffd200;
+	font-size: 50px;
+	text-align: center;
+}
+
+#intro h2{
+	color:#ffd200;
+	font-size: 40px;
+	display: block;
+	text-align: center;
+}
+
+a.btn {
+	color: white;
+	text-decoration: none;
+	padding: 15px 25px;
+	background: #2f4049;
+	border-radius: 25px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+a.btn:hover {
+	background-color: #2980b9;
+	color: white;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.text-center{
+	text-align: center;
+}
+
+/*.desc-text{
+	padding: 0 100px 20px;
+}*/
+
+#profil{
+	background-color: #d4d2d2;
+	padding: 60px 30px 50px 100px;
+	height: 700px;
+}
+
+.img-thumbnail {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+  padding: 4px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  -webkit-transition: all .2s ease-in-out;
+       -o-transition: all .2s ease-in-out;
+          transition: all .2s ease-in-out;
+}
+
+#profil table{
+	transform:translateY(-200%);
+
+}
+.row table{
+	float:right;
+	margin: 110px 250px 0;
+}
+
+
+#foto-profil{
+	width: 300px;
+	height: 300px;
+	display: block;x
+	margin: 50px;
+}
+
+
+#gallery{
+	background-color: #ff9800;
+	height: 950px;
+}
+
+.foto-galeri{
+ width: 30%;
+ float: left;
+ height:300px;
+ margin: 10px;
+ display:block; 
+ margin-bottom: 50px;
+ transform:translateX(8%);
+}
+
+.row-img{
+ 	margin: 30px;
+}
+
+ .foto-galeri img{
+ 	width:100%;
+ 	height: 260px;
+ }
+
+#footer{
+	background-color:#2f4049;
+	padding:15px; 
+	color: white;
+	font-size: 14px;
+}
+
+#contact{
+	background-color: white;
+	padding:0px;
+	height: 300px;	
+}
+
+ul.sosmed {
+	transform:translateX(34%);
+	list-style: none;
+	margin-right: 120px;
+	margin: 30px;
+}
+
+ul.sosmed li {
+	float: left;
+}
+
+ul.sosmed li a{
+	color: white;
+	padding: 0px 30px;
+	margin: 0px;
+	display: block;
+	text-decoration: none;
+}
+
+ul.sosmed li a img{
+	border-radius: 50%;
+	height: 50px;
+	width: 50px;
+}
+
